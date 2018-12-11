@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Dice Roller</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="roller">
+    <h1 class="title">Dice Roller</h1>
+    <section class='display'>
+      <div>
+        <output class="roll"></output>
+      </div>
+      <input type="number" class="amount" name="amount" min="1">
+    </section>
+    <section class="dice">
+      <div>
+        <button class="d100 button"><b>d100</b></button>
+        <button class="d20 button"><b>d20</b></button>
+        <button class="d12 button"><b>d12</b></button>
+      </div>
+      <div>
+        <button class="d10 button"><b>d10</b></button>
+        <button class="d8 button"><b>d8</b></button>
+        <button class="d6 button"><b>d6</b></button>
+      </div>
+      <div>
+        <button class="d4 button"><b>d4</b></button>
+        <button class="d3 button"><b>d3</b></button>
+        <button class="d2 button"><b>d2</b></button>
+      </div>
+    </section>
+  </div>
+
+  <script src='roller.js'></script>
+</body>
+
+</html>
